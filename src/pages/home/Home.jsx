@@ -1,14 +1,14 @@
-import Header from '../../components/navbar/header/Header'
-import Navbar from '../../components/navbar/Navbar'
-import './Home.css'
+import Header from "../../components/header/Header";
+import Navbar from "../../components/navbar/Navbar";
+import "./Home.css";
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Header/>
+      <Navbar />
+      <Header />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
